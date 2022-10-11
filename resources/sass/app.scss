@@ -1,1 +1,25 @@
-//
+@import url('partials/main.scss');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  ul,ol,menu {
+    list-style: none;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+  }
+
+  .flex {
+    display: flex;
+  }
